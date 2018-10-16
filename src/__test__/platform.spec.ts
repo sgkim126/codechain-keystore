@@ -1,5 +1,5 @@
 import { CCKey } from "../index";
-import { keyFromPublicKey, KeyType } from "../model/keys";
+import { keyFromPublicKey, KeyType } from "../keys";
 
 describe("platform", () => {
     let cckey: CCKey;

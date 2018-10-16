@@ -1,9 +1,9 @@
 import { getPublicFromPrivate } from "codechain-primitives";
 import { closeContext, Context, createContext, storageExist } from "./context";
-import { decode } from "./logic/storage";
-import { initialize as dbInitialize } from "./model/initialize";
-import * as Keys from "./model/keys";
-import { KeyType } from "./model/keys";
+import { initialize as dbInitialize } from "./initialize";
+import * as Keys from "./keys";
+import { KeyType } from "./keys";
+import { decode } from "./storage";
 import { Key, PrivateKey, PublicKey, SecretStorage } from "./types";
 
 export { SecretStorage };

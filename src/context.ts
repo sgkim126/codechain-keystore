@@ -1,8 +1,8 @@
 import * as Lowdb from "lowdb";
 import lowdb = require("lowdb");
 import * as os from "os";
-import { initialize as dbInitialize } from "./model/initialize";
-import { clear, getTableName, KeyType } from "./model/keys";
+import { initialize as dbInitialize } from "./initialize";
+import { clear, getTableName, KeyType } from "./keys";
 
 declare var window: any;
 function isBrowser() {

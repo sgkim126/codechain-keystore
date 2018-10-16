@@ -1,4 +1,4 @@
-import { Context } from "../context";
+import { Context } from "./context";
 import { ErrorCode, KeystoreError } from "./error";
 
 export function errorMessage(context: Context, error: KeystoreError): string {

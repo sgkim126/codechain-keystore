@@ -7,10 +7,10 @@ import {
     signEcdsa
 } from "codechain-primitives";
 import * as _ from "lodash";
-import { Context } from "../context";
-import { ErrorCode, KeystoreError } from "../logic/error";
-import { decode, encode } from "../logic/storage";
-import { Key, PrivateKey, PublicKey, SecretStorage } from "../types";
+import { Context } from "./context";
+import { ErrorCode, KeystoreError } from "./error";
+import { decode, encode } from "./storage";
+import { Key, PrivateKey, PublicKey, SecretStorage } from "./types";
 
 export enum KeyType {
     Platform,
